@@ -4,7 +4,7 @@
 [Project on Github pages](https://tatianamoseeva.github.io/giotrans/)
 
 ## Screenshot
-![screenshot](img/screenshot.png "First screen")
+![screenshot](https://github.com/TatianaMoseeva/giotrans/blob/main/screenshot.png "First screen")
 
 ## Features 
 :white_check_mark: Mobile-first responsive design adapted to all screen sizes
