@@ -1,0 +1,16 @@
+.quote {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #f8f8ff;
+    
+    &__message {
+        margin-top: 27px;
+        font-size: 14px;
+        line-height: 19px;
+        color: $grey_color; 
+        a {
+            color: $grey_color;
+        } 
+    }
+    
+}

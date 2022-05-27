@@ -1,0 +1,24 @@
+.main {
+    padding-top: 40px;
+    &__title {
+        color: $blue_color;
+        font-size: 42px;
+        line-height: 50px;
+        letter-spacing: -1px;
+    }
+    &__desc {
+        margin-top: 50px;
+        font-size: 14px;
+        line-height: 19px;
+        color: $grey_color;
+    }
+    &__img {
+        display: none;
+    }
+    .btn {
+        display: block;
+        margin: 60px auto 0 auto;
+        
+    }
+    
+}

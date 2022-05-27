@@ -1,0 +1,43 @@
+@import 'libs/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+
+
+* {
+    font-family: 'Noto Sans Regular', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+
+h1, h2, h3 {
+    font-family: 'Noto Sans Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+@import 'blocks/top';
+@import 'blocks/main';
+@import 'blocks/promo';
+@import 'blocks/btns';
+@import 'blocks/title';
+@import 'blocks/benefits';
+@import 'blocks/forms';
+@import 'blocks/quote';
+@import 'blocks/services';
+@import 'blocks/vehicles';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/policy';
+
+
+@import 'blocks/media';

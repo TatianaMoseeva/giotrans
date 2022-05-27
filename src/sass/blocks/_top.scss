@@ -1,0 +1,49 @@
+header {
+    position: relative;
+    height: 44px;
+    background-color: $blue_color;
+}
+
+.top {
+    position: fixed;
+    background-color: $blue_color;
+    width: 100%;
+    padding-top: 4px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    a {
+        text-decoration: none;
+    }
+    
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        width: 124px;
+        margin-left: 5px;
+        img {
+            width: 100%;
+        }
+    }
+    &__phone {
+        display: flex;
+        align-items: center;
+        &_icon {
+            width: 18px;
+            height: 18px;
+            margin-right: 3px;
+        }
+        &_number {
+                font-weight: bold;
+                font-size: 5.5vw;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+        }
+    }
+}

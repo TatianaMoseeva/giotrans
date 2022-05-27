@@ -1,0 +1,28 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    background-color: $blue_color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__logo {
+        width: 153px;
+        margin-bottom: 13px;
+        img {
+            width: 100%;
+        }
+    }
+    span {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .btn {
+        margin-top: 35px;
+    }
+    a {
+        text-decoration: none;
+    }
+}

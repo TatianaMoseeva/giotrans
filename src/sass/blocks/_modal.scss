@@ -1,0 +1,43 @@
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba($color: #000000, $alpha: .56);
+    z-index: 4;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 53px 20px 44px 20px;
+    
+    &__title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    &__close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: $orange-color;
+        font-size: 41px;
+        line-height: 21px;
+        cursor: pointer;
+        /* &:hover {
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            background-color: rgba(255, 255, 255, 0.12);
+            border: none;
+        } */
+    }
+}
